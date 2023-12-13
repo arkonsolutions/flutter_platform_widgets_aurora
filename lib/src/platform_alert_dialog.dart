@@ -7,7 +7,7 @@
 import 'package:flutter/cupertino.dart' show CupertinoAlertDialog;
 import 'package:flutter/material.dart' show AlertDialog, Material;
 import 'package:flutter/widgets.dart';
-import 'package:flutter_platform_widgets/src/extensions.dart';
+import 'package:flutter_platform_widgets_aurora/src/extensions.dart';
 
 import 'platform.dart';
 import 'platform_provider.dart';

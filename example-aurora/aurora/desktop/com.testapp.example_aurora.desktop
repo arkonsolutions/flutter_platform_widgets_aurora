@@ -1,0 +1,12 @@
+[Desktop Entry]
+Type=Application
+Name=example_aurora
+Comment=A new Flutter project.
+Icon=com.testapp.example_aurora
+Exec=/usr/bin/com.testapp.example_aurora
+X-Nemo-Application-Type=silica-qt5
+
+[X-Application]
+Permissions=
+OrganizationName=com.testapp
+ApplicationName=example_aurora

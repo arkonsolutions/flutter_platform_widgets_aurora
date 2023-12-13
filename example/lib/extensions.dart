@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
-import 'package:flutter_platform_widgets/flutter_platform_widgets.dart';
+import 'package:flutter_platform_widgets_aurora/flutter_platform_widgets.dart';
 
 extension WidgetExt on Widget {
   Widget maxWidth(double maxWidth) {

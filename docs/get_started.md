@@ -18,7 +18,7 @@ dependencies:
 And for any file you use add this import
 
 ```dart
-import 'package:flutter_platform_widgets/flutter_platform_widgets.dart';
+import 'package:flutter_platform_widgets_aurora/flutter_platform_widgets.dart';
 ```
 
 ---
