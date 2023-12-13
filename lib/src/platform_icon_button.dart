@@ -9,7 +9,7 @@ import 'package:flutter/cupertino.dart'
 import 'package:flutter/material.dart'
     show IconButton, VisualDensity, ButtonStyle;
 import 'package:flutter/widgets.dart';
-import 'package:flutter_platform_widgets/src/parent_widget_finder.dart';
+import 'package:flutter_platform_widgets_aurora/src/parent_widget_finder.dart';
 
 import 'platform.dart';
 import 'widget_base.dart';

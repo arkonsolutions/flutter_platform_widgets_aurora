@@ -1,6 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_platform_widgets/flutter_platform_widgets.dart';
+import 'package:flutter_platform_widgets_aurora/flutter_platform_widgets.dart';
 
 showDatePickerWithCustomCupertinoStateful(BuildContext context) async {
   final now = DateUtils.dateOnly(DateTime.now());

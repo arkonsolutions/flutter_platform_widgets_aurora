@@ -1,6 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_platform_widgets/flutter_platform_widgets.dart';
+import 'package:flutter_platform_widgets_aurora/flutter_platform_widgets.dart';
 
 import 'cupertino_date_picker.dart';
 import 'extensions.dart';
