@@ -71,7 +71,7 @@ PlatformStyle _platformStyle(BuildContext context) {
     case TargetPlatform.windows:
       return platformStyle?.windows ?? PlatformStyle.Material;
     default:
-      return platformStyle?.aurora ?? PlatformStyle.Material;
+      return PlatformStyle.Material;
   }
 }
 
@@ -111,6 +111,8 @@ PlatformTarget platform(BuildContext context) {
       return PlatformTarget.macOS;
     case TargetPlatform.windows:
       return PlatformTarget.windows;
+    default:
+      return PlatformTarget.aurora;
   }
 }
 
