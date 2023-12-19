@@ -45,6 +45,7 @@ enum PlatformTarget {
   windows,
 
   web,
+  aurora
 }
 
 PlatformStyle _platformStyle(BuildContext context) {
@@ -69,6 +70,8 @@ PlatformStyle _platformStyle(BuildContext context) {
       return platformStyle?.macos ?? PlatformStyle.Cupertino;
     case TargetPlatform.windows:
       return platformStyle?.windows ?? PlatformStyle.Material;
+    default:
+      return platformStyle?.aurora ?? PlatformStyle.Material;
   }
 }
 

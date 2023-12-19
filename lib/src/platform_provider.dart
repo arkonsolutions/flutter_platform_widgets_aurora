@@ -174,14 +174,15 @@ class PlatformStyleData {
   final PlatformStyle web;
   final PlatformStyle fuchsia;
   final PlatformStyle linux;
+  final PlatformStyle aurora;
 
-  const PlatformStyleData({
-    this.android = PlatformStyle.Material,
-    this.ios = PlatformStyle.Cupertino,
-    this.macos = PlatformStyle.Cupertino,
-    this.windows = PlatformStyle.Material,
-    this.web = PlatformStyle.Material,
-    this.fuchsia = PlatformStyle.Material,
-    this.linux = PlatformStyle.Material,
-  });
+  const PlatformStyleData(
+      {this.android = PlatformStyle.Material,
+      this.ios = PlatformStyle.Cupertino,
+      this.macos = PlatformStyle.Cupertino,
+      this.windows = PlatformStyle.Material,
+      this.web = PlatformStyle.Material,
+      this.fuchsia = PlatformStyle.Material,
+      this.linux = PlatformStyle.Material,
+      this.aurora = PlatformStyle.Material});
 }
